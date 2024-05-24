@@ -1,0 +1,31 @@
+li{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.log-in{
+    background: transparent;
+    font-weight: 600;
+    color: white;
+    border: transparent;
+}
+
+.pd-top{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+@media (max-width: 768px) {
+    .comman-width {
+      flex-wrap: wrap;
+    }
+  
+    ul {
+      margin: 4px 0; /* Add margin for spacing */
+    }
+  
+    .header-button {
+      margin-top: 10px; /* Adjust margin for better spacing */
+    }
+  }

@@ -1,0 +1,31 @@
+.box {
+    background-color: transparent;
+    border: 1px solid #F4913F;
+    // border: 1px solid linear-gradient(159.89deg, #F4913F -18.95%, rgba(244, 145, 63, 0) 142.74%);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .pt{
+    padding-top: 90px;
+  }
+
+
+  @media(max-width:530px){
+
+    .gap-5{
+        gap:1rem !important;
+      }
+
+      .pt{
+        padding-top: 20px;
+      }
+
+  }
+
+
+
+
+
+

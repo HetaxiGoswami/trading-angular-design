@@ -1,0 +1,86 @@
+.trade-container {
+  background: conic-gradient(
+    from 180deg at 0% -16.41%,
+    rgba(242, 242, 242, 0.13) 0deg,
+    #1f084d 360deg
+  );
+  padding: 20px; 
+  padding-bottom: 100px;
+}
+
+.bg-transparent {
+  background: transparent;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.table {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 2px solid gray;
+  border-radius: 6px;
+}
+
+.table thead,
+.table tbody,
+.table tr,
+.table th,
+.table td {
+  background: transparent;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.table th,
+.table td {
+  border: none;
+  vertical-align: middle;
+}
+
+.f-12 {
+  font-size: 11px;
+}
+
+.f-10 {
+  margin: 0;
+  font-size: 10px;
+  color: gray;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+button {
+  background: transparent;
+  border: 1px solid red;
+  color: red;
+  padding: 0px 15px 0px 15px;
+  border-radius: 4px;
+}
+
+.h2-width {
+  max-width: 1136px;
+  margin: 0 auto;
+  color: #f4913f;
+  padding-top: 100px;
+  padding-bottom: 55px;
+}
+@media (max-width: 768px) {
+    .table-container {
+      overflow-x: auto; 
+      max-width: 100%; 
+      margin-bottom: 20px; 
+    }
+  }
+  

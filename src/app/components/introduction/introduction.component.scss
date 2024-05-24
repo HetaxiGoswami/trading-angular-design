@@ -1,0 +1,151 @@
+.bg-img {
+    background-image: 
+        linear-gradient(165.66deg,  rgba(31, 8, 77, 1), rgba(13, 5, 29, 0.2) 78.1%),
+        url('/assets/images/Vector 6.png');
+    background-position: center center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    padding-bottom: 100px;
+    color: white;
+}
+
+.h1-contents {
+    font-size: 60px;
+    color: rgba(254, 192, 57, 1);
+    font-weight: 700;
+}
+
+.pr-120 {
+    padding-right: 120px;
+}
+
+.grp-27 {
+    width: 26%;
+    z-index: 1;
+    max-width: 287px;
+    position: absolute;
+}
+
+.grp-11 {
+    width: 50%;
+    max-width: 341px;
+    position: relative;
+    left: 100px;
+}
+
+.grp-4788 {
+    position: absolute;
+    max-width: 246px;
+    width: 40%;
+    left: -74px;
+    z-index: 1;
+    top: 177px;
+}
+
+.grp-4792 {
+    position: absolute;
+    top: 279px;
+    left: 239px;
+    max-width: 300px;
+    z-index: 1;
+    width: 100%;
+}
+
+.grp-4790 {
+    position: absolute;
+    z-index: 1;
+    max-width: 268px; 
+    width: 20%;
+    right: 208px;
+    top: 99px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+@media (max-width: 1200px) {
+    .grp-11 {
+        left: 50px;
+    }
+
+    .grp-4788 {
+        left: -50px;
+    }
+
+    .grp-4790 {
+        right: 100px;
+    }
+
+    .grp-4792 {
+        left: 150px;
+    }
+}
+
+@media (max-width: 992px) {
+    .grp-11 {
+        left: 25px;
+    }
+
+    .grp-4788 {
+        left: -30px;
+    }
+
+    .grp-4790 {
+        right: 50px;
+    }
+
+    .grp-4792 {
+        left: 100px;
+    }
+
+    .d-flex {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .h1-contents {
+        font-size: 40px;
+    }
+
+    .pr-120 {
+        padding-right: 30px;
+    }
+
+    .grp-27, .grp-11, .grp-4788, .grp-4792, .grp-4790 {
+        position: relative;
+        left: 0;
+        top: 0;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .d-flex {
+        padding-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-12 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .h1-contents {
+        font-size: 30px;
+    }
+
+    .grp-27, .grp-11, .grp-4788, .grp-4792, .grp-4790 {
+        max-width: 100%;
+    }
+
+    .col-12 {
+        padding: 0 10px;
+    }
+}

@@ -1,0 +1,34 @@
+p{
+    word-spacing: 2px;
+    font-size: 14px;
+}
+
+.comman-width-1183{
+    margin: 0 auto;
+    max-width: 1183px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.col-6-img{
+    
+    max-width: 585px;
+    width: 100%;
+
+}
+
+.padding-top{
+    padding-top: 88px;
+}
+
+@media (max-width:750px){
+    .row{
+        flex-direction: column !important;
+    }
+
+    .col-4{
+        width: 100%;
+        padding-top: 30px;
+    }
+}
